@@ -68,8 +68,8 @@ export default function RocksPage() {
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)] items-start gap-6">
           {/* Quadrant Chart - left column */}
           <div>
-            <div data-testid="rocks-quadrant" className="bg-white border border-[var(--border)] rounded-lg shadow-sm p-6">
-              <ResponsiveContainer width="100%" height={420}>
+            <div data-testid="rocks-quadrant" className="bg-white border border-[var(--border)] rounded-lg shadow-sm p-4 sm:p-6">
+              <ResponsiveContainer width="100%" height={360}>
                 <ScatterChart
                   margin={{ top: 20, right: 60, bottom: 80, left: 100 }}
                   data={controlRoomData.initiatives.map((initiative: any) => ({
@@ -212,8 +212,9 @@ export default function RocksPage() {
         <h2 className="text-3xl font-bold text-[var(--text-strong)] mb-8">Portfolio Scoreboard — 12 Rocks at a Glance</h2>
 
         <div className="bg-white border border-[var(--border)] rounded-lg shadow-sm overflow-hidden">
-          <div className="overflow-x-auto">
-            <table className="w-full">
+          <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <div className="min-w-[900px] px-4 sm:px-0">
+              <table className="w-full">
               <thead>
                 <tr className="border-b border-[var(--border)] bg-[var(--surface-2)]">
                   <th className="text-left py-4 px-6 text-sm font-semibold text-[var(--text-strong)]">Initiative</th>
@@ -426,8 +427,9 @@ export default function RocksPage() {
               ))}
             </tbody>
           </table>
+            </div>
+          </div>
         </div>
-      </div>
       </PageShell>
     </div>
   );

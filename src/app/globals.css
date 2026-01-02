@@ -407,21 +407,21 @@ h4 {
   }
 }
 
-/* Design System Utility Classes */
+/* Design System Utility Classes - Responsive */
 .page-container {
-  @apply p-8;
+  @apply px-4 py-6 sm:px-6 lg:px-8;
 }
 
 .zone-stack {
-  @apply mb-12;
+  @apply space-y-6 lg:space-y-8;
 }
 
 .card-base {
-  @apply bg-[var(--card-bg)] border border-[var(--border)] rounded-md shadow-sm;
+  @apply bg-[var(--card-bg)] border border-[var(--border)] rounded-md shadow-sm p-4 sm:p-5 lg:p-6;
 }
 
 .card-elevated {
-  @apply bg-[var(--card-bg)] border border-[var(--border)] rounded-md shadow-md;
+  @apply bg-[var(--card-bg)] border border-[var(--border)] rounded-md shadow-md p-4 sm:p-5 lg:p-6;
 }
 
 .chart-wrap {

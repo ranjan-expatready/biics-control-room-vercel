@@ -35,14 +35,14 @@ export default async function RockPage({ params }: RockPageProps) {
       subtitle={`${initiative.execOwner} • ${formatAmount(initiative.valueAtRiskUsd)} at risk`}
     >
       {/* Jump to Navigation */}
-      <div className="mb-8 p-4 bg-surface border border-border-subtle rounded-sm" data-testid="rock-tabs">
-        <div className="flex gap-4 text-sm">
-          <span className="text-muted mr-2">Jump to:</span>
-          <a href="#verdict" className="text-primary hover:text-primary-hover underline">Verdict</a>
-          <a href="#rationale" className="text-primary hover:text-primary-hover underline">Why</a>
-          <a href="#decision" className="text-primary hover:text-primary-hover underline">Decision</a>
-          <a href="#evidence" className="text-primary hover:text-primary-hover underline">Evidence</a>
-          <a href="#dependencies" className="text-primary hover:text-primary-hover underline">Dependencies</a>
+      <div className="mb-8 p-4 bg-[var(--surface)] border border-[var(--border-subtle)] rounded-sm" data-testid="rock-tabs">
+        <div className="flex gap-4 text-sm overflow-x-auto scrollbar-hide">
+          <span className="text-[var(--text-muted)] mr-2 whitespace-nowrap">Jump to:</span>
+          <a href="#verdict" className="text-[var(--primary)] hover:text-[var(--primary-hover)] underline whitespace-nowrap">Verdict</a>
+          <a href="#rationale" className="text-[var(--primary)] hover:text-[var(--primary-hover)] underline whitespace-nowrap">Why</a>
+          <a href="#decision" className="text-[var(--primary)] hover:text-[var(--primary-hover)] underline whitespace-nowrap">Decision</a>
+          <a href="#evidence" className="text-[var(--primary)] hover:text-[var(--primary-hover)] underline whitespace-nowrap">Evidence</a>
+          <a href="#dependencies" className="text-[var(--primary)] hover:text-[var(--primary-hover)] underline whitespace-nowrap">Dependencies</a>
         </div>
       </div>
 
@@ -61,9 +61,9 @@ export default async function RockPage({ params }: RockPageProps) {
           <div className="text-lg text-muted mb-2">
             {initiative.name}
           </div>
-          <div className="flex justify-center items-center gap-6 text-sm">
-            <span className="text-default font-semibold">{formatAmount(initiative.valueAtRiskUsd)} at risk</span>
-            <span className="text-danger">Irreversible in {initiative.irreversibilityDays} days</span>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6 text-sm">
+            <span className="text-[var(--text-strong)] font-semibold">{formatAmount(initiative.valueAtRiskUsd)} at risk</span>
+            <span className="text-[var(--danger)]">Irreversible in {initiative.irreversibilityDays} days</span>
           </div>
         </div>
       </div>

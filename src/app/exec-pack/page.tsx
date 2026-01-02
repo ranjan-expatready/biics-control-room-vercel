@@ -130,7 +130,9 @@ export default function ExecPackPage() {
           Decision debt is the leading indicator of portfolio failure.
         </p>
 
-        <table className="w-full mb-6" data-testid="exec-pack-table">
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+          <div className="min-w-[800px] px-4 sm:px-0">
+            <table className="w-full mb-6" data-testid="exec-pack-table">
           <thead>
             <tr>
               <th className="text-left py-2 px-4 border-b font-semibold">Decision</th>
@@ -166,6 +168,8 @@ export default function ExecPackPage() {
             ))}
           </tbody>
         </table>
+          </div>
+        </div>
         <p className="text-xs text-gray-600 mt-4 italic">
           Stance reflects operator recommendation; final accountability remains with decision owner.
         </p>
