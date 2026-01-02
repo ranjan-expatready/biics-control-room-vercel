@@ -2,7 +2,7 @@
   "initiatives": [
     {
       "id": "digital-transformation",
-      "name": "Digital Transformation Platform",
+      "name": "Client Growth",
       "execOwner": "Sarah Chen (Chief Digital Officer)",
       "status": "FAILING",
       "valueAtRiskUsd": 12000000,
@@ -48,7 +48,7 @@
     },
     {
       "id": "customer-experience",
-      "name": "Customer Experience Platform",
+      "name": "Enterprise Advice Center (EAC)",
       "execOwner": "Michael Rodriguez (VP Customer Success)",
       "status": "FAILING",
       "valueAtRiskUsd": 8500000,
@@ -94,7 +94,7 @@
     },
     {
       "id": "supply-chain",
-      "name": "Supply Chain Optimization",
+      "name": "Developer Productivity",
       "execOwner": "Jennifer Walsh (Chief Operations Officer)",
       "status": "FAILING",
       "valueAtRiskUsd": 15000000,
@@ -140,7 +140,7 @@
     },
     {
       "id": "data-analytics",
-      "name": "Data Analytics Platform",
+      "name": "Wholesale Credit Underwriting",
       "execOwner": "David Kim (Chief Data Officer)",
       "status": "WARNING",
       "valueAtRiskUsd": 6500000,
@@ -186,7 +186,7 @@
     },
     {
       "id": "mobile-app",
-      "name": "Mobile App Redesign",
+      "name": "Fraud",
       "execOwner": "Lisa Thompson (VP Product)",
       "status": "WARNING",
       "valueAtRiskUsd": 4200000,
@@ -232,7 +232,7 @@
     },
     {
       "id": "api-modernization",
-      "name": "API Modernization",
+      "name": "Wealth Management Advisor (WM Advisor)",
       "execOwner": "Alex Rivera (VP Engineering)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 1800000,
@@ -278,7 +278,7 @@
     },
     {
       "id": "security-infrastructure",
-      "name": "Security Infrastructure Upgrade",
+      "name": "Next Best Action (NBA) & Personalization",
       "execOwner": "Maria Garcia (Chief Information Security Officer)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 2800000,
@@ -324,7 +324,7 @@
     },
     {
       "id": "compliance-automation",
-      "name": "Compliance Automation",
+      "name": "Mortgage Re-imagination",
       "execOwner": "Robert Lee (Chief Compliance Officer)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 1500000,
@@ -370,7 +370,7 @@
     },
     {
       "id": "training-platform",
-      "name": "Training Platform",
+      "name": "Quantum Leap (Retail Credit / Credit Cards)",
       "execOwner": "Emma Davis (Chief Learning Officer)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 1200000,
@@ -416,7 +416,7 @@
     },
     {
       "id": "reporting-dashboard",
-      "name": "Executive Reporting Dashboard",
+      "name": "Capital Markets AI",
       "execOwner": "James Wilson (VP Finance)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 900000,
@@ -462,7 +462,7 @@
     },
     {
       "id": "vendor-management",
-      "name": "Vendor Management System",
+      "name": "HR / Learning & Change Enablement",
       "execOwner": "Karen Patel (Chief Procurement Officer)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 2100000,
@@ -508,7 +508,7 @@
     },
     {
       "id": "process-optimization",
-      "name": "Process Optimization Initiative",
+      "name": "General Purpose Vehicles (GPVs) / Reusable AI Assets",
       "execOwner": "Thomas Brown (VP Operations)",
       "status": "ACCEPTABLE",
       "valueAtRiskUsd": 1900000,
