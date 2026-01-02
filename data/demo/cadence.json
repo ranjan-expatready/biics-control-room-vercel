@@ -1,0 +1,133 @@
+[
+  {
+    "id": "cadence-001",
+    "name": "Daily Sync",
+    "frequency": "daily",
+    "dayOfWeek": "Monday",
+    "audience": "Workstream Leads",
+    "purpose": "Daily alignment on blockers and immediate priorities",
+    "artifacts": [
+      {
+        "name": "Blockers List",
+        "offsetBusinessDays": -1
+      },
+      {
+        "name": "Status Update",
+        "offsetBusinessDays": 0
+      }
+    ],
+    "readinessRules": [
+      "No critical blockers unassigned"
+    ],
+    "attendees": [
+      "Workstream Leads",
+      "Program Managers"
+    ]
+  },
+  {
+    "id": "cadence-002",
+    "name": "WBR",
+    "frequency": "weekly",
+    "dayOfWeek": "Monday",
+    "audience": "PMO",
+    "purpose": "Weekly program health and velocity review",
+    "artifacts": [
+      {
+        "name": "Exec Pack Draft",
+        "offsetBusinessDays": -7
+      },
+      {
+        "name": "Stakeholder Review",
+        "offsetBusinessDays": -2
+      },
+      {
+        "name": "Metrics Cutoff",
+        "offsetBusinessDays": -1
+      }
+    ],
+    "readinessRules": [
+      "Top 5 risks have mitigations assigned"
+    ],
+    "attendees": [
+      "Sarah Chen, Chief Strategy Officer",
+      "Program Owners",
+      "PMO Team"
+    ]
+  },
+  {
+    "id": "cadence-003",
+    "name": "MBR",
+    "frequency": "monthly",
+    "dayOfWeek": "First Friday",
+    "audience": "Exec",
+    "purpose": "Monthly portfolio review and strategic decision-making",
+    "artifacts": [
+      {
+        "name": "Portfolio Health Report",
+        "offsetBusinessDays": -10
+      },
+      {
+        "name": "Strategic Decision Summary",
+        "offsetBusinessDays": -5
+      },
+      {
+        "name": "Executive Review",
+        "offsetBusinessDays": -2
+      },
+      {
+        "name": "Final Metrics Cutoff",
+        "offsetBusinessDays": -1
+      }
+    ],
+    "readinessRules": [
+      "No decisions older than 10 days",
+      "All critical actions have owners"
+    ],
+    "attendees": [
+      "C-Suite",
+      "Sarah Chen, Chief Strategy Officer",
+      "All Program Owners"
+    ]
+  },
+  {
+    "id": "cadence-004",
+    "name": "SteerCo",
+    "frequency": "quarterly",
+    "dayOfWeek": "Last Friday",
+    "audience": "Board",
+    "purpose": "Quarterly strategic review and board-level decisions",
+    "artifacts": [
+      {
+        "name": "Quarterly Portfolio Report",
+        "offsetBusinessDays": -14
+      },
+      {
+        "name": "Board Pack Draft",
+        "offsetBusinessDays": -10
+      },
+      {
+        "name": "Stakeholder Review",
+        "offsetBusinessDays": -5
+      },
+      {
+        "name": "Final Review",
+        "offsetBusinessDays": -2
+      },
+      {
+        "name": "Metrics Cutoff",
+        "offsetBusinessDays": -1
+      }
+    ],
+    "readinessRules": [
+      "No decisions older than 10 days",
+      "All strategic decisions have recommendations",
+      "Portfolio health score above threshold"
+    ],
+    "attendees": [
+      "Board of Directors",
+      "C-Suite",
+      "All Program Owners",
+      "Key Stakeholders"
+    ]
+  }
+]

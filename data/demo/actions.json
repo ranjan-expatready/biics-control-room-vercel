@@ -1,0 +1,253 @@
+[
+  {
+    "id": "action-001",
+    "rockId": "rock-001",
+    "title": "Complete API Integration Testing",
+    "description": "Finish comprehensive testing of all third-party API integrations",
+    "owner": "Michael Rodriguez",
+    "dueDate": "2024-02-15",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-002",
+    "rockId": "rock-001",
+    "title": "User Acceptance Testing",
+    "description": "Conduct UAT with selected customer beta group",
+    "owner": "Michael Rodriguez",
+    "dueDate": "2024-02-28",
+    "status": "Open",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-003",
+    "rockId": "rock-001",
+    "title": "Performance Optimization Sprint",
+    "description": "Dedicated sprint to optimize platform performance metrics",
+    "owner": "Michael Rodriguez",
+    "dueDate": "2024-03-10",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-004",
+    "rockId": "rock-002",
+    "title": "Complete Phase 1 Migration",
+    "description": "Complete migration of Phase 1 data sets to new infrastructure",
+    "owner": "Jennifer Kim",
+    "dueDate": "2024-02-20",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-005",
+    "rockId": "rock-002",
+    "title": "Engage Migration Consultants",
+    "description": "Onboard specialized migration consultants to accelerate progress",
+    "owner": "Jennifer Kim",
+    "dueDate": "2024-02-05",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-006",
+    "rockId": "rock-003",
+    "title": "Deploy AI Sales Assistant Beta",
+    "description": "Launch beta version of AI-powered sales assistant to pilot group",
+    "owner": "David Park",
+    "dueDate": "2024-02-12",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-007",
+    "rockId": "rock-003",
+    "title": "Sales Team Training",
+    "description": "Complete training program for sales team on new AI tools",
+    "owner": "David Park",
+    "dueDate": "2024-03-01",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-008",
+    "rockId": "rock-004",
+    "title": "Finalize Compliance Policies",
+    "description": "Complete and approve all required compliance policies",
+    "owner": "Lisa Thompson",
+    "dueDate": "2024-02-29",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-009",
+    "rockId": "rock-004",
+    "title": "Employee Training Rollout",
+    "description": "Roll out mandatory compliance training to all employees",
+    "owner": "Lisa Thompson",
+    "dueDate": "2024-03-15",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-010",
+    "rockId": "rock-004",
+    "title": "External Audit Preparation",
+    "description": "Prepare for external regulatory compliance audit",
+    "owner": "Lisa Thompson",
+    "dueDate": "2024-04-10",
+    "status": "Open",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-011",
+    "rockId": "rock-005",
+    "title": "Vendor Evaluation Complete",
+    "description": "Complete evaluation of alternative platform vendors",
+    "owner": "Robert Chen",
+    "dueDate": "2024-02-10",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-012",
+    "rockId": "rock-005",
+    "title": "Build vs Buy Analysis",
+    "description": "Complete comprehensive build vs buy analysis for talent platform",
+    "owner": "Robert Chen",
+    "dueDate": "2024-02-08",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-013",
+    "rockId": "rock-006",
+    "title": "Supplier Diversification Plan",
+    "description": "Finalize supplier diversification plan and execute first phase",
+    "owner": "Amanda Foster",
+    "dueDate": "2024-02-25",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-014",
+    "rockId": "rock-006",
+    "title": "Logistics Optimization Implementation",
+    "description": "Implement logistics optimization algorithms and processes",
+    "owner": "Amanda Foster",
+    "dueDate": "2024-03-20",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-015",
+    "rockId": "rock-007",
+    "title": "App Store Submission",
+    "description": "Submit redesigned mobile app to iOS and Android app stores",
+    "owner": "Michael Rodriguez",
+    "dueDate": "2024-03-10",
+    "status": "Open",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-016",
+    "rockId": "rock-007",
+    "title": "Performance Optimization",
+    "description": "Complete performance optimization to meet load time targets",
+    "owner": "Michael Rodriguez",
+    "dueDate": "2024-03-05",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-017",
+    "rockId": "rock-008",
+    "title": "Security Tool Deployment",
+    "description": "Deploy advanced security monitoring and threat detection tools",
+    "owner": "James Wilson",
+    "dueDate": "2024-02-18",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-018",
+    "rockId": "rock-008",
+    "title": "Security Team Training",
+    "description": "Complete training for security team on new tools and processes",
+    "owner": "James Wilson",
+    "dueDate": "2024-03-01",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-019",
+    "rockId": "rock-009",
+    "title": "First Partnership Launch",
+    "description": "Launch first strategic partnership and begin integration",
+    "owner": "Patricia Martinez",
+    "dueDate": "2024-03-15",
+    "status": "Open",
+    "priority": "High"
+  },
+  {
+    "id": "action-020",
+    "rockId": "rock-010",
+    "title": "AI Model Training Completion",
+    "description": "Complete training of core AI/ML models to target accuracy",
+    "owner": "Jennifer Kim",
+    "dueDate": "2024-03-10",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-021",
+    "rockId": "rock-010",
+    "title": "Hire AI/ML Engineers",
+    "description": "Complete hiring of 3 additional AI/ML engineers",
+    "owner": "Jennifer Kim",
+    "dueDate": "2024-02-28",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-022",
+    "rockId": "rock-011",
+    "title": "Customer Success Team Hiring",
+    "description": "Hire and onboard 5 new customer success managers",
+    "owner": "Sarah Chen",
+    "dueDate": "2024-02-20",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-023",
+    "rockId": "rock-011",
+    "title": "Customer Success Playbook",
+    "description": "Develop and document customer success playbook and processes",
+    "owner": "Sarah Chen",
+    "dueDate": "2024-03-05",
+    "status": "In Progress",
+    "priority": "High"
+  },
+  {
+    "id": "action-024",
+    "rockId": "rock-012",
+    "title": "Financial System Integration",
+    "description": "Complete integration of new financial system with legacy systems",
+    "owner": "Thomas Anderson",
+    "dueDate": "2024-03-30",
+    "status": "In Progress",
+    "priority": "Critical"
+  },
+  {
+    "id": "action-025",
+    "rockId": "rock-012",
+    "title": "Financial Team Training",
+    "description": "Complete training for finance team on new system and processes",
+    "owner": "Thomas Anderson",
+    "dueDate": "2024-04-10",
+    "status": "Open",
+    "priority": "High"
+  }
+]
+

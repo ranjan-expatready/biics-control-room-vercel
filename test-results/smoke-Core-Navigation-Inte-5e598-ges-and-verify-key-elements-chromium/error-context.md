@@ -1,0 +1,601 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "BIICS" [level=1] [ref=e6]
+          - generic [ref=e7]: Program Balanced Scorecard OS
+        - generic [ref=e9]: Demo Mode
+    - generic [ref=e10]:
+      - complementary [ref=e11]:
+        - navigation [ref=e12]:
+          - link "🏠 Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e14]: 🏠
+            - generic [ref=e15]: Home
+          - link "🎯 Rocks" [ref=e16] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e17]: 🎯
+            - generic [ref=e18]: Rocks
+          - link "⚠️ Risks" [ref=e19] [cursor=pointer]:
+            - /url: /risks
+            - generic [ref=e20]: ⚠️
+            - generic [ref=e21]: Risks
+          - link "💡 Decisions" [ref=e22] [cursor=pointer]:
+            - /url: /decisions
+            - generic [ref=e23]: 💡
+            - generic [ref=e24]: Decisions
+          - link "✅ Actions" [ref=e25] [cursor=pointer]:
+            - /url: /actions
+            - generic [ref=e26]: ✅
+            - generic [ref=e27]: Actions
+          - link "📅 Cadence" [ref=e28] [cursor=pointer]:
+            - /url: /cadence
+            - generic [ref=e29]: 📅
+            - generic [ref=e30]: Cadence
+          - link "📋 Offering" [ref=e31] [cursor=pointer]:
+            - /url: /offering
+            - generic [ref=e32]: 📋
+            - generic [ref=e33]: Offering
+      - main [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - heading "Program Control Room" [level=1] [ref=e40]
+              - paragraph [ref=e41]: Decision-grade visibility across 12 Big Rocks—so leadership can act early, prevent surprises, and protect outcomes.
+            - link "Generate Exec Pack" [ref=e43] [cursor=pointer]:
+              - /url: /exec-pack
+          - main [ref=e44]:
+            - generic [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: As of
+                - generic [ref=e49]: January 15, 2024
+              - generic [ref=e50]:
+                - generic [ref=e51]:
+                  - generic [ref=e52]: Portfolio Health
+                  - button "Health scoring explanation" [ref=e54]: ℹ️
+                - generic [ref=e55]: "62"
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Confidence
+                  - generic [ref=e59]: ℹ️
+                - generic [ref=e60]: 78%
+            - generic [ref=e62]:
+              - generic [ref=e63]: Portfolio Evidence Summary
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]: Budget
+                  - generic [ref=e67]:
+                    - text: $63.5M → $74.2M
+                    - generic [ref=e68]: (17% over)
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Timeline
+                  - generic [ref=e71]: On track
+                - generic [ref=e72]:
+                  - generic [ref=e73]: Quality
+                  - generic [ref=e74]: CRITICAL
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Value Conf.
+                  - generic [ref=e77]: 62%
+            - generic [ref=e78]:
+              - heading "Executive Summary — What fails next if we do nothing" [level=2] [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: Portfolio Exposure
+                  - generic [ref=e83]:
+                    - generic [ref=e84]:
+                      - generic [ref=e85]: Value at Risk
+                      - generic [ref=e86]: $36M
+                    - generic [ref=e87]:
+                      - generic [ref=e88]: Irreversible in
+                      - generic [ref=e89]: 8d
+                  - generic [ref=e90]: If we do nothing, this becomes permanent across 3 critical initiatives.
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Cascade Risk
+                  - generic [ref=e93]:
+                    - generic [ref=e94]:
+                      - generic [ref=e95]: Cascade Impact
+                      - generic [ref=e96]: $26M
+                    - generic [ref=e97]:
+                      - generic [ref=e98]: Initiatives
+                      - generic [ref=e99]: "3"
+                  - generic [ref=e100]: Failure cascades could impact this across dependent initiatives if critical paths break.
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Decision Debt
+                  - generic [ref=e103]:
+                    - generic [ref=e104]:
+                      - generic [ref=e105]: Decisions Due
+                      - generic [ref=e106]: "6"
+                    - generic [ref=e107]:
+                      - generic [ref=e108]: Value at Risk
+                      - generic [ref=e109]: $57M
+                  - generic [ref=e110]: Decisions due within 7 days, at risk if delayed.
+            - generic [ref=e111]:
+              - heading "What Changed Since Jan 8" [level=2] [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]: DEGRADED
+                  - generic [ref=e117]:
+                    - link "Digital Transformation budget overrun exceeded 40% threshold" [ref=e119] [cursor=pointer]:
+                      - /url: /rocks/digital-transformation#rationale
+                    - generic [ref=e120]: "Impact: $12M"
+                    - generic [ref=e121]: Vendor relationship issues have escalated costs beyond recovery planning assumptions.
+                    - generic [ref=e122]: "Related: digital-transformation"
+                - generic [ref=e124]:
+                  - generic [ref=e125]: NEW RISK
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Single-source supplier dependency identified as critical enterprise risk
+                    - generic [ref=e128]: "Impact: $11M"
+                    - generic [ref=e129]: 21-day window identified for dual-sourcing before permanent disruption risk.
+                - generic [ref=e131]:
+                  - generic [ref=e132]: DEGRADED
+                  - generic [ref=e133]:
+                    - link "Supply Chain timeline slipped 52 days with CRITICAL quality signal" [ref=e135] [cursor=pointer]:
+                      - /url: /rocks/supply-chain#rationale
+                    - generic [ref=e136]: "Impact: $15M"
+                    - generic [ref=e137]: Legacy system dependencies now exceed 8-day irreversibility threshold.
+                    - generic [ref=e138]: "Related: supply-chain"
+                - generic [ref=e140]:
+                  - generic [ref=e141]: IMPROVED
+                  - generic [ref=e142]:
+                    - link "API Modernization confidence increased to 82%" [ref=e144] [cursor=pointer]:
+                      - /url: /rocks/api-modernization#rationale
+                    - generic [ref=e145]: Stable quality signals and on-track timeline provide recovery buffer.
+                    - generic [ref=e146]: "Related: api-modernization"
+                - generic [ref=e148]:
+                  - generic [ref=e149]: DECISION CLOSED
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: Q4 budget allocation decisions completed for 3 initiatives
+                    - generic [ref=e152]: "Impact: $9M"
+                    - generic [ref=e153]: Funding secured for Digital Transformation and Customer Experience recovery efforts.
+                - generic [ref=e155]:
+                  - generic [ref=e156]: DEGRADED
+                  - generic [ref=e157]:
+                    - link "Customer Experience retention impact escalated to 23%" [ref=e159] [cursor=pointer]:
+                      - /url: /rocks/customer-experience#rationale
+                    - generic [ref=e160]: "Impact: $9M"
+                    - generic [ref=e161]: Leadership changes now required within 22-day irreversibility window.
+                    - generic [ref=e162]: "Related: customer-experience"
+            - generic [ref=e163]:
+              - generic [ref=e165]:
+                - heading "Executive Intervention Required" [level=2] [ref=e166]
+                - generic [ref=e167]: 3 initiatives past recovery thresholds
+              - generic [ref=e168]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]:
+                    - link "Digital Transformation Platform" [ref=e172] [cursor=pointer]:
+                      - /url: /rocks/digital-transformation
+                    - generic [ref=e173]:
+                      - generic [ref=e174]: FAILING
+                      - generic [ref=e175]:
+                        - text: $12.0M at risk
+                        - generic [ref=e176]: +$8.5M cascade
+                    - generic [ref=e177]:
+                      - img [ref=e179]
+                      - generic [ref=e181]: Vendor relationship breakdown and technical debt accumulation
+                    - generic [ref=e183]:
+                      - generic [ref=e184]:
+                        - generic [ref=e185]: Budget
+                        - generic [ref=e186]:
+                          - text: $8.0M → $11.2M
+                          - generic [ref=e187]: (40% over)
+                      - generic [ref=e188]:
+                        - generic [ref=e189]: Timeline
+                        - generic [ref=e190]: 45 days slip
+                      - generic [ref=e191]:
+                        - generic [ref=e192]: Quality
+                        - generic [ref=e193]: CRITICAL
+                      - generic [ref=e194]:
+                        - generic [ref=e195]: Value Conf.
+                        - generic [ref=e196]: 35%
+                  - generic [ref=e197]:
+                    - generic [ref=e198]: 15 days to irreversibility
+                    - generic [ref=e199]: Sarah Chen (Chief Digital Officer)
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - link "Customer Experience Platform" [ref=e203] [cursor=pointer]:
+                      - /url: /rocks/customer-experience
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: FAILING
+                      - generic [ref=e206]:
+                        - text: $8.5M at risk
+                        - generic [ref=e207]: +$6.2M cascade
+                    - generic [ref=e208]:
+                      - img [ref=e210]
+                      - generic [ref=e212]: Integration failures and user adoption resistance
+                    - generic [ref=e214]:
+                      - generic [ref=e215]:
+                        - generic [ref=e216]: Budget
+                        - generic [ref=e217]:
+                          - text: $6.5M → $9.2M
+                          - generic [ref=e218]: (42% over)
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: Timeline
+                        - generic [ref=e221]: 28 days slip
+                      - generic [ref=e222]:
+                        - generic [ref=e223]: Quality
+                        - generic [ref=e224]: DEGRADING
+                      - generic [ref=e225]:
+                        - generic [ref=e226]: Value Conf.
+                        - generic [ref=e227]: 42%
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: 22 days to irreversibility
+                    - generic [ref=e230]: Michael Rodriguez (VP Customer Success)
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - link "Supply Chain Optimization" [ref=e234] [cursor=pointer]:
+                      - /url: /rocks/supply-chain
+                    - generic [ref=e235]:
+                      - generic [ref=e236]: FAILING
+                      - generic [ref=e237]:
+                        - text: $15.0M at risk
+                        - generic [ref=e238]: +$11.0M cascade
+                    - generic [ref=e239]:
+                      - img [ref=e241]
+                      - generic [ref=e243]: Legacy system dependencies and change management failure
+                    - generic [ref=e245]:
+                      - generic [ref=e246]:
+                        - generic [ref=e247]: Budget
+                        - generic [ref=e248]:
+                          - text: $12.0M → $16.5M
+                          - generic [ref=e249]: (38% over)
+                      - generic [ref=e250]:
+                        - generic [ref=e251]: Timeline
+                        - generic [ref=e252]: 52 days slip
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: Quality
+                        - generic [ref=e255]: CRITICAL
+                      - generic [ref=e256]:
+                        - generic [ref=e257]: Value Conf.
+                        - generic [ref=e258]: 28%
+                  - generic [ref=e259]:
+                    - generic [ref=e260]: 8 days to irreversibility
+                    - generic [ref=e261]: Jennifer Walsh (Chief Operations Officer)
+            - generic [ref=e262]:
+              - generic [ref=e264]:
+                - heading "Decisions Required This Week" [level=2] [ref=e265]
+                - generic [ref=e266]: 6 pending decisions requiring executive action
+              - generic [ref=e267]:
+                - generic [ref=e269]:
+                  - generic [ref=e270]:
+                    - link "Terminate Digital Transformation Platform" [ref=e271] [cursor=pointer]:
+                      - /url: /rocks/digital-transformation
+                    - generic [ref=e272]:
+                      - img [ref=e274]
+                      - generic [ref=e276]: Delaying termination will consume $2M weekly in failing vendor costs and prevent rescue of dependent initiatives
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: "Digital Transformation Platform Evidence:"
+                      - generic [ref=e279]:
+                        - generic [ref=e280]:
+                          - generic [ref=e281]: Budget
+                          - generic [ref=e282]:
+                            - text: $8.0M → $11.2M
+                            - generic [ref=e283]: (40% over)
+                        - generic [ref=e284]:
+                          - generic [ref=e285]: Timeline
+                          - generic [ref=e286]: 45 days slip
+                        - generic [ref=e287]:
+                          - generic [ref=e288]: Quality
+                          - generic [ref=e289]: CRITICAL
+                        - generic [ref=e290]:
+                          - generic [ref=e291]: Value Conf.
+                          - generic [ref=e292]: 35%
+                  - generic [ref=e293]:
+                    - generic [ref=e294]: 3 days to due
+                    - generic [ref=e295]: $12.0M at risk
+                    - generic [ref=e296]: Sarah Chen
+                - generic [ref=e298]:
+                  - generic [ref=e299]:
+                    - link "Escalate Supply Chain Optimization Issues" [ref=e300] [cursor=pointer]:
+                      - /url: /rocks/supply-chain
+                    - generic [ref=e301]:
+                      - img [ref=e303]
+                      - generic [ref=e305]: Each week of delay increases cascade failure risk by 15% and prevents ERP integration completion
+                    - generic [ref=e306]:
+                      - generic [ref=e307]: "Supply Chain Optimization Evidence:"
+                      - generic [ref=e308]:
+                        - generic [ref=e309]:
+                          - generic [ref=e310]: Budget
+                          - generic [ref=e311]:
+                            - text: $12.0M → $16.5M
+                            - generic [ref=e312]: (38% over)
+                        - generic [ref=e313]:
+                          - generic [ref=e314]: Timeline
+                          - generic [ref=e315]: 52 days slip
+                        - generic [ref=e316]:
+                          - generic [ref=e317]: Quality
+                          - generic [ref=e318]: CRITICAL
+                        - generic [ref=e319]:
+                          - generic [ref=e320]: Value Conf.
+                          - generic [ref=e321]: 28%
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: 5 days to due
+                    - generic [ref=e324]: $15.0M at risk
+                    - generic [ref=e325]: Jennifer Walsh
+                - generic [ref=e327]:
+                  - generic [ref=e328]:
+                    - link "Redirect Customer Experience Resources" [ref=e329] [cursor=pointer]:
+                      - /url: /rocks/customer-experience
+                    - generic [ref=e330]:
+                      - img [ref=e332]
+                      - generic [ref=e334]: Continued resource drain will force mobile app cancellation and damage customer retention by 23%
+                    - generic [ref=e335]:
+                      - generic [ref=e336]: "Customer Experience Platform Evidence:"
+                      - generic [ref=e337]:
+                        - generic [ref=e338]:
+                          - generic [ref=e339]: Budget
+                          - generic [ref=e340]:
+                            - text: $6.5M → $9.2M
+                            - generic [ref=e341]: (42% over)
+                        - generic [ref=e342]:
+                          - generic [ref=e343]: Timeline
+                          - generic [ref=e344]: 28 days slip
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: Quality
+                          - generic [ref=e347]: DEGRADING
+                        - generic [ref=e348]:
+                          - generic [ref=e349]: Value Conf.
+                          - generic [ref=e350]: 42%
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: 4 days to due
+                    - generic [ref=e353]: $8.5M at risk
+                    - generic [ref=e354]: Michael Rodriguez
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - link "Increase Data Analytics Investment or Accept Delay" [ref=e358] [cursor=pointer]:
+                      - /url: /rocks/data-analytics
+                    - generic [ref=e359]:
+                      - img [ref=e361]
+                      - generic [ref=e363]: Accepting delay will push compliance reporting deadlines by 4 months and increase regulatory risk
+                    - generic [ref=e364]:
+                      - generic [ref=e365]: "Data Analytics Platform Evidence:"
+                      - generic [ref=e366]:
+                        - generic [ref=e367]:
+                          - generic [ref=e368]: Budget
+                          - generic [ref=e369]:
+                            - text: $5.5M → $7.2M
+                            - generic [ref=e370]: (31% over)
+                        - generic [ref=e371]:
+                          - generic [ref=e372]: Timeline
+                          - generic [ref=e373]: 18 days slip
+                        - generic [ref=e374]:
+                          - generic [ref=e375]: Quality
+                          - generic [ref=e376]: DEGRADING
+                        - generic [ref=e377]:
+                          - generic [ref=e378]: Value Conf.
+                          - generic [ref=e379]: 55%
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: 7 days to due
+                    - generic [ref=e382]: $6.5M at risk
+                    - generic [ref=e383]: David Kim
+                - generic [ref=e385]:
+                  - generic [ref=e386]:
+                    - link "Reduce Mobile App Scope or Accept Delays" [ref=e387] [cursor=pointer]:
+                      - /url: /rocks/mobile-app
+                    - generic [ref=e388]:
+                      - img [ref=e390]
+                      - generic [ref=e392]: Scope expansion will delay API modernization by 8 weeks and reduce platform reliability by 30%
+                    - generic [ref=e393]:
+                      - generic [ref=e394]: "Mobile App Redesign Evidence:"
+                      - generic [ref=e395]:
+                        - generic [ref=e396]:
+                          - generic [ref=e397]: Budget
+                          - generic [ref=e398]:
+                            - text: $3.8M → $4.8M
+                            - generic [ref=e399]: (26% over)
+                        - generic [ref=e400]:
+                          - generic [ref=e401]: Timeline
+                          - generic [ref=e402]: 12 days slip
+                        - generic [ref=e403]:
+                          - generic [ref=e404]: Quality
+                          - generic [ref=e405]: STABLE
+                        - generic [ref=e406]:
+                          - generic [ref=e407]: Value Conf.
+                          - generic [ref=e408]: 68%
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: 6 days to due
+                    - generic [ref=e411]: $4.2M at risk
+                    - generic [ref=e412]: Lisa Thompson
+            - generic [ref=e413]:
+              - generic [ref=e415]:
+                - heading "Systemic Exposure & Cascading Failure" [level=2] [ref=e416]
+                - generic [ref=e417]: 12 initiatives with dependency relationships
+              - generic [ref=e418]:
+                - generic [ref=e419]:
+                  - generic [ref=e420]:
+                    - link "Digital Transformation Platform" [ref=e422] [cursor=pointer]:
+                      - /url: /rocks/digital-transformation
+                    - generic [ref=e423]: FAILING
+                  - generic [ref=e424]: "Depends on: data-analytics, api-modernization, mobile-app"
+                  - generic [ref=e425]:
+                    - img [ref=e427]
+                    - generic [ref=e429]: $8.5M cascade impact
+                - generic [ref=e430]:
+                  - generic [ref=e431]:
+                    - link "Customer Experience Platform" [ref=e433] [cursor=pointer]:
+                      - /url: /rocks/customer-experience
+                    - generic [ref=e434]: FAILING
+                  - generic [ref=e435]: "Depends on: mobile-app, training-platform"
+                  - generic [ref=e436]:
+                    - img [ref=e438]
+                    - generic [ref=e440]: $6.2M cascade impact
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - link "Supply Chain Optimization" [ref=e444] [cursor=pointer]:
+                      - /url: /rocks/supply-chain
+                    - generic [ref=e445]: FAILING
+                  - generic [ref=e446]: "Depends on: erp-integration, reporting-dashboard, process-optimization"
+                  - generic [ref=e447]:
+                    - img [ref=e449]
+                    - generic [ref=e451]: $11.0M cascade impact
+                - generic [ref=e452]:
+                  - generic [ref=e453]:
+                    - link "Data Analytics Platform" [ref=e455] [cursor=pointer]:
+                      - /url: /rocks/data-analytics
+                    - generic [ref=e456]: WARNING
+                  - generic [ref=e457]: "Depends on: reporting-dashboard, compliance-automation"
+                  - generic [ref=e458]:
+                    - img [ref=e460]
+                    - generic [ref=e462]: $3.8M cascade impact
+                - generic [ref=e463]:
+                  - generic [ref=e464]:
+                    - link "Mobile App Redesign" [ref=e466] [cursor=pointer]:
+                      - /url: /rocks/mobile-app
+                    - generic [ref=e467]: WARNING
+                  - generic [ref=e468]: "Depends on: api-modernization"
+                  - generic [ref=e469]:
+                    - img [ref=e471]
+                    - generic [ref=e473]: $2.1M cascade impact
+                - generic [ref=e474]:
+                  - generic [ref=e475]:
+                    - generic [ref=e477]: API Modernization
+                    - generic [ref=e478]: ACCEPTABLE
+                  - generic [ref=e479]: Independent
+                - generic [ref=e480]:
+                  - generic [ref=e481]:
+                    - generic [ref=e483]: Security Infrastructure Upgrade
+                    - generic [ref=e484]: ACCEPTABLE
+                  - generic [ref=e485]: Independent
+                - generic [ref=e486]:
+                  - generic [ref=e487]:
+                    - generic [ref=e489]: Compliance Automation
+                    - generic [ref=e490]: ACCEPTABLE
+                  - generic [ref=e491]: Independent
+                - generic [ref=e492]:
+                  - generic [ref=e493]:
+                    - generic [ref=e495]: Training Platform
+                    - generic [ref=e496]: ACCEPTABLE
+                  - generic [ref=e497]: Independent
+                - generic [ref=e498]:
+                  - generic [ref=e499]:
+                    - generic [ref=e501]: Executive Reporting Dashboard
+                    - generic [ref=e502]: ACCEPTABLE
+                  - generic [ref=e503]: Independent
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - generic [ref=e507]: Vendor Management System
+                    - generic [ref=e508]: ACCEPTABLE
+                  - generic [ref=e509]: Independent
+                - generic [ref=e510]:
+                  - generic [ref=e511]:
+                    - generic [ref=e513]: Process Optimization Initiative
+                    - generic [ref=e514]: ACCEPTABLE
+                  - generic [ref=e515]: Independent
+            - generic [ref=e516]:
+              - generic [ref=e518]:
+                - heading "Top Portfolio Risks & Mitigation Credibility" [level=2] [ref=e519]
+                - generic [ref=e520]: Enterprise risks that can invalidate multiple initiatives if mitigation fails
+              - generic [ref=e521]:
+                - generic [ref=e523]:
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: Single-source supplier dependency
+                    - generic [ref=e526]: Failure to dual-source within 21 days risks cascading supply disruption and $11M revenue exposure.
+                  - generic [ref=e527]:
+                    - generic [ref=e528]: CRITICAL
+                    - generic [ref=e529]: STALLED
+                    - generic [ref=e530]: COO
+                - generic [ref=e532]:
+                  - generic [ref=e533]:
+                    - generic [ref=e534]: Executive turnover vulnerability
+                    - generic [ref=e535]: Key executive departure without succession coverage could stall 3 critical initiatives and delay value realization by 8 months.
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: HIGH
+                    - generic [ref=e538]: IN PROGRESS
+                    - generic [ref=e539]: CHRO
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: Regulatory compliance gaps
+                    - generic [ref=e544]: Incomplete regulatory alignment risks fines up to $2.8M and blocks market expansion into regulated segments.
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: MODERATE
+                    - generic [ref=e547]: EFFECTIVE
+                    - generic [ref=e548]: Chief Compliance Officer
+                - generic [ref=e550]:
+                  - generic [ref=e551]:
+                    - generic [ref=e552]: Technology platform fragmentation
+                    - generic [ref=e553]: Incompatible technology stacks create integration debt that could double maintenance costs within 12 months.
+                  - generic [ref=e554]:
+                    - generic [ref=e555]: HIGH
+                    - generic [ref=e556]: NOT STARTED
+                    - generic [ref=e557]: CIO
+                - generic [ref=e559]:
+                  - generic [ref=e560]:
+                    - generic [ref=e561]: Market demand shift exposure
+                    - generic [ref=e562]: Failure to adapt to market changes could render 40% of current initiatives obsolete with $18M invested capital at risk.
+                  - generic [ref=e563]:
+                    - generic [ref=e564]: MODERATE
+                    - generic [ref=e565]: STALLED
+                    - generic [ref=e566]: CMO
+            - generic [ref=e567]:
+              - generic [ref=e569]:
+                - heading "Capital & Leadership Allocation" [level=2] [ref=e570]
+                - generic [ref=e571]: Resource trade-offs for intervention options
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - heading "Rescue Requirements" [level=3] [ref=e574]
+                  - generic [ref=e575]:
+                    - generic [ref=e576]:
+                      - generic [ref=e577]: Digital Transformation Platform
+                      - generic [ref=e578]: $3-$6M capital + 2 executives
+                    - generic [ref=e579]:
+                      - generic [ref=e580]: Customer Experience Platform
+                      - generic [ref=e581]: $2-$4M capital + 2 executives
+                    - generic [ref=e582]:
+                      - generic [ref=e583]: Supply Chain Optimization
+                      - generic [ref=e584]: $4-$7M capital + 3 executives
+                - generic [ref=e585]:
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: Available Capacity
+                    - generic [ref=e588]: 5 executives | $12M quarterly budget remaining
+                  - generic [ref=e589]: Rescuing all 3 failing initiatives requires reallocating 7 executives and $18-25M from other programs.
+            - generic [ref=e590]:
+              - generic [ref=e592]:
+                - heading "Failure Signals (Next 30–60 Days)" [level=2] [ref=e593]
+                - generic [ref=e594]: 5 impending irreversibility points
+              - generic [ref=e595]:
+                - generic [ref=e596]:
+                  - img [ref=e598]
+                  - generic [ref=e600]:
+                    - text: Data Analytics Platform reaches irreversibility
+                    - generic [ref=e601]: in 35 days
+                    - generic [ref=e602]: Compliance reporting capabilities permanently delayed by 6 months
+                - generic [ref=e603]:
+                  - img [ref=e605]
+                  - generic [ref=e607]:
+                    - text: Mobile App Redesign becomes unrecoverable
+                    - generic [ref=e608]: in 42 days
+                    - generic [ref=e609]: Customer experience deterioration accelerates, 18% retention impact expected
+                - generic [ref=e610]:
+                  - img [ref=e612]
+                  - generic [ref=e614]:
+                    - text: API Modernization stalls permanently
+                    - generic [ref=e615]: in 55 days
+                    - generic [ref=e616]: Digital ecosystem fragmentation increases maintenance costs by 40%
+                - generic [ref=e617]:
+                  - img [ref=e619]
+                  - generic [ref=e621]:
+                    - text: Security Infrastructure gaps widen
+                    - generic [ref=e622]: in 48 days
+                    - generic [ref=e623]: Regulatory compliance risk increases, potential fines up to $2.5M
+                - generic [ref=e624]:
+                  - img [ref=e626]
+                  - generic [ref=e628]:
+                    - text: Process Optimization opportunities lost
+                    - generic [ref=e629]: in 49 days
+                    - generic [ref=e630]: Operational efficiency gains permanently forgone, $3.2M annual impact
+  - generic [ref=e635] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e636]:
+      - img [ref=e637]
+    - generic [ref=e640]:
+      - button "Open issues overlay" [ref=e641]:
+        - generic [ref=e642]:
+          - generic [ref=e643]: "0"
+          - generic [ref=e644]: "1"
+        - generic [ref=e645]: Issue
+      - button "Collapse issues badge" [ref=e646]:
+        - img [ref=e647]
+  - alert [ref=e649]
+```

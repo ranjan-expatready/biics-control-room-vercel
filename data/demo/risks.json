@@ -1,0 +1,256 @@
+[
+  {
+    "id": "risk-001",
+    "rockId": "rock-001",
+    "title": "Third-Party Integration Delays",
+    "description": "Key third-party service provider experiencing delays in API delivery",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Engaged backup vendor and accelerated internal development timeline",
+    "owner": "Michael Rodriguez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-002",
+    "rockId": "rock-001",
+    "title": "User Adoption Concerns",
+    "description": "Early user testing indicates potential resistance to new interface",
+    "severity": "Medium",
+    "probability": "Medium",
+    "mitigation": "Enhanced user onboarding program and iterative UX improvements",
+    "owner": "Michael Rodriguez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-003",
+    "rockId": "rock-002",
+    "title": "Data Migration Complexity",
+    "description": "Legacy data structures more complex than anticipated, slowing migration",
+    "severity": "Critical",
+    "probability": "High",
+    "mitigation": "Engaged specialized migration consultants and extended timeline",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-004",
+    "rockId": "rock-002",
+    "title": "Downtime During Migration",
+    "description": "Risk of service disruption during critical migration windows",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Implementing blue-green deployment strategy with rollback capability",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-005",
+    "rockId": "rock-002",
+    "title": "Resource Constraints",
+    "description": "Limited engineering bandwidth for migration work",
+    "severity": "High",
+    "probability": "High",
+    "mitigation": "Contracting additional engineering resources and reprioritizing work",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-006",
+    "rockId": "rock-003",
+    "title": "AI Model Training Data Quality",
+    "description": "Training data may not be representative of all customer segments",
+    "severity": "Medium",
+    "probability": "Low",
+    "mitigation": "Expanding training dataset and implementing bias detection",
+    "owner": "David Park",
+    "status": "Open"
+  },
+  {
+    "id": "risk-007",
+    "rockId": "rock-004",
+    "title": "Regulatory Interpretation Changes",
+    "description": "Regulatory guidance may change, requiring framework adjustments",
+    "severity": "High",
+    "probability": "Low",
+    "mitigation": "Building flexible framework with modular compliance components",
+    "owner": "Lisa Thompson",
+    "status": "Open"
+  },
+  {
+    "id": "risk-008",
+    "rockId": "rock-004",
+    "title": "Training Completion Delays",
+    "description": "Employee compliance training may not complete on schedule",
+    "severity": "Medium",
+    "probability": "Medium",
+    "mitigation": "Mandatory training blocks and manager accountability",
+    "owner": "Lisa Thompson",
+    "status": "Open"
+  },
+  {
+    "id": "risk-009",
+    "rockId": "rock-005",
+    "title": "Platform Vendor Issues",
+    "description": "Selected vendor experiencing product stability issues",
+    "severity": "Critical",
+    "probability": "High",
+    "mitigation": "Evaluating alternative vendors and considering build vs buy",
+    "owner": "Robert Chen",
+    "status": "Open"
+  },
+  {
+    "id": "risk-010",
+    "rockId": "rock-005",
+    "title": "Integration Complexity",
+    "description": "Integration with existing HR systems more complex than expected",
+    "severity": "High",
+    "probability": "High",
+    "mitigation": "Engaging integration specialists and extending timeline",
+    "owner": "Robert Chen",
+    "status": "Open"
+  },
+  {
+    "id": "risk-011",
+    "rockId": "rock-005",
+    "title": "User Adoption",
+    "description": "HR team may resist new platform adoption",
+    "severity": "Medium",
+    "probability": "Medium",
+    "mitigation": "Change management program and extensive training",
+    "owner": "Robert Chen",
+    "status": "Open"
+  },
+  {
+    "id": "risk-012",
+    "rockId": "rock-006",
+    "title": "Geopolitical Supply Chain Disruption",
+    "description": "Potential supply chain disruptions due to geopolitical events",
+    "severity": "High",
+    "probability": "Low",
+    "mitigation": "Diversifying supplier base and building inventory buffers",
+    "owner": "Amanda Foster",
+    "status": "Open"
+  },
+  {
+    "id": "risk-013",
+    "rockId": "rock-007",
+    "title": "App Store Approval Delays",
+    "description": "Risk of delays in app store review and approval process",
+    "severity": "Medium",
+    "probability": "Medium",
+    "mitigation": "Early submission and close communication with app stores",
+    "owner": "Michael Rodriguez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-014",
+    "rockId": "rock-007",
+    "title": "Performance Optimization Challenges",
+    "description": "Achieving target performance metrics may require significant rework",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Performance testing throughout development and optimization sprints",
+    "owner": "Michael Rodriguez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-015",
+    "rockId": "rock-008",
+    "title": "Zero-Day Vulnerability Discovery",
+    "description": "Risk of discovering critical zero-day vulnerabilities",
+    "severity": "Critical",
+    "probability": "Low",
+    "mitigation": "24/7 security monitoring and rapid response procedures",
+    "owner": "James Wilson",
+    "status": "Open"
+  },
+  {
+    "id": "risk-016",
+    "rockId": "rock-009",
+    "title": "Partner Contract Negotiation Delays",
+    "description": "Complex contract negotiations may delay partnership launches",
+    "severity": "Medium",
+    "probability": "Medium",
+    "mitigation": "Standardized contract templates and legal resource allocation",
+    "owner": "Patricia Martinez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-017",
+    "rockId": "rock-009",
+    "title": "Partner Integration Challenges",
+    "description": "Technical integration with partners may be more complex than expected",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Early technical assessments and dedicated integration team",
+    "owner": "Patricia Martinez",
+    "status": "Open"
+  },
+  {
+    "id": "risk-018",
+    "rockId": "rock-010",
+    "title": "AI Model Performance Issues",
+    "description": "AI models may not meet accuracy and performance requirements",
+    "severity": "Critical",
+    "probability": "High",
+    "mitigation": "Extended model training and testing phases, fallback to simpler models",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-019",
+    "rockId": "rock-010",
+    "title": "Compute Resource Costs",
+    "description": "AI/ML compute costs may exceed budget projections",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Cost optimization strategies and cloud provider negotiations",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-020",
+    "rockId": "rock-010",
+    "title": "Talent Shortage",
+    "description": "Difficulty hiring AI/ML engineers with required expertise",
+    "severity": "High",
+    "probability": "High",
+    "mitigation": "Expanding search to include contractors and remote talent",
+    "owner": "Jennifer Kim",
+    "status": "Open"
+  },
+  {
+    "id": "risk-021",
+    "rockId": "rock-011",
+    "title": "Customer Success Team Scaling",
+    "description": "Rapid scaling of customer success team may impact service quality",
+    "severity": "Medium",
+    "probability": "Low",
+    "mitigation": "Phased hiring with comprehensive onboarding and quality monitoring",
+    "owner": "Sarah Chen",
+    "status": "Open"
+  },
+  {
+    "id": "risk-022",
+    "rockId": "rock-012",
+    "title": "Legacy System Integration",
+    "description": "Integration with legacy financial systems may be challenging",
+    "severity": "High",
+    "probability": "Medium",
+    "mitigation": "Phased integration approach with extensive testing",
+    "owner": "Thomas Anderson",
+    "status": "Open"
+  },
+  {
+    "id": "risk-023",
+    "rockId": "rock-012",
+    "title": "Regulatory Reporting Compliance",
+    "description": "New system must meet all regulatory reporting requirements",
+    "severity": "Critical",
+    "probability": "Low",
+    "mitigation": "Early regulatory review and compliance validation",
+    "owner": "Thomas Anderson",
+    "status": "Open"
+  }
+]
+

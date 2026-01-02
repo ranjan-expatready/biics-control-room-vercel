@@ -1,0 +1,22 @@
+{
+  "id": "portfolio-001",
+  "name": "Q1 Strategic Initiatives Portfolio",
+  "description": "Executive portfolio tracking 12 critical Big Rocks for Q1 delivery",
+  "owner": "Sarah Chen, Chief Strategy Officer",
+  "lastUpdated": "2024-01-15T10:30:00Z",
+  "rocks": [
+    "rock-001",
+    "rock-002",
+    "rock-003",
+    "rock-004",
+    "rock-005",
+    "rock-006",
+    "rock-007",
+    "rock-008",
+    "rock-009",
+    "rock-010",
+    "rock-011",
+    "rock-012"
+  ]
+}
+

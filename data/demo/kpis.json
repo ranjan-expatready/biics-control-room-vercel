@@ -1,0 +1,278 @@
+[
+  {
+    "id": "kpi-001",
+    "rockId": "rock-001",
+    "name": "Platform Uptime",
+    "description": "Percentage of time platform is available and operational",
+    "target": 99.9,
+    "current": 99.7,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-002",
+    "rockId": "rock-001",
+    "name": "User Engagement Score",
+    "description": "Composite score measuring user interaction and satisfaction",
+    "target": 85,
+    "current": 82,
+    "unit": "score",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-003",
+    "rockId": "rock-001",
+    "name": "Customer Churn Rate",
+    "description": "Monthly customer churn percentage",
+    "target": 2.5,
+    "current": 3.1,
+    "unit": "%",
+    "trend": "Down",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-004",
+    "rockId": "rock-002",
+    "name": "Migration Progress",
+    "description": "Percentage of data migrated to new infrastructure",
+    "target": 100,
+    "current": 45,
+    "unit": "%",
+    "trend": "Up",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-005",
+    "rockId": "rock-002",
+    "name": "System Performance Improvement",
+    "description": "Reduction in average query response time",
+    "target": 50,
+    "current": 28,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-006",
+    "rockId": "rock-003",
+    "name": "Sales Conversion Rate",
+    "description": "Percentage of leads converted to customers",
+    "target": 25,
+    "current": 23.5,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-007",
+    "rockId": "rock-003",
+    "name": "Average Sales Cycle Time",
+    "description": "Average days from lead to closed deal",
+    "target": 45,
+    "current": 48,
+    "unit": "days",
+    "trend": "Down",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-008",
+    "rockId": "rock-004",
+    "name": "Compliance Audit Score",
+    "description": "Score from regulatory compliance audit",
+    "target": 95,
+    "current": 88,
+    "unit": "score",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-009",
+    "rockId": "rock-004",
+    "name": "Policy Implementation Rate",
+    "description": "Percentage of required policies implemented",
+    "target": 100,
+    "current": 75,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-010",
+    "rockId": "rock-005",
+    "name": "Time-to-Hire",
+    "description": "Average days from job posting to offer acceptance",
+    "target": 21,
+    "current": 35,
+    "unit": "days",
+    "trend": "Down",
+    "status": "Off Track"
+  },
+  {
+    "id": "kpi-011",
+    "rockId": "rock-005",
+    "name": "Candidate Quality Score",
+    "description": "Average quality rating of candidates in pipeline",
+    "target": 4.0,
+    "current": 3.2,
+    "unit": "rating",
+    "trend": "Stable",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-012",
+    "rockId": "rock-006",
+    "name": "Supply Chain Cost Reduction",
+    "description": "Percentage reduction in total supply chain costs",
+    "target": 15,
+    "current": 12,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-013",
+    "rockId": "rock-006",
+    "name": "On-Time Delivery Rate",
+    "description": "Percentage of orders delivered on or before promised date",
+    "target": 98,
+    "current": 96.5,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-014",
+    "rockId": "rock-007",
+    "name": "App Store Rating",
+    "description": "Average user rating in app stores",
+    "target": 4.5,
+    "current": 4.1,
+    "unit": "stars",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-015",
+    "rockId": "rock-007",
+    "name": "App Load Time",
+    "description": "Average time for app to load and become interactive",
+    "target": 2.0,
+    "current": 3.2,
+    "unit": "seconds",
+    "trend": "Down",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-016",
+    "rockId": "rock-008",
+    "name": "Security Incident Count",
+    "description": "Number of security incidents in current quarter",
+    "target": 0,
+    "current": 2,
+    "unit": "count",
+    "trend": "Stable",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-017",
+    "rockId": "rock-008",
+    "name": "Vulnerability Remediation Time",
+    "description": "Average days to remediate identified vulnerabilities",
+    "target": 7,
+    "current": 9,
+    "unit": "days",
+    "trend": "Down",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-018",
+    "rockId": "rock-009",
+    "name": "New Strategic Partnerships",
+    "description": "Number of new strategic partnerships signed",
+    "target": 5,
+    "current": 2,
+    "unit": "count",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-019",
+    "rockId": "rock-009",
+    "name": "Partner-Generated Revenue",
+    "description": "Revenue generated through partner channels",
+    "target": 2500000,
+    "current": 850000,
+    "unit": "USD",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-020",
+    "rockId": "rock-010",
+    "name": "AI Model Accuracy",
+    "description": "Accuracy of AI/ML models in production",
+    "target": 95,
+    "current": 87,
+    "unit": "%",
+    "trend": "Up",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-021",
+    "rockId": "rock-010",
+    "name": "AI Feature Adoption Rate",
+    "description": "Percentage of users actively using AI features",
+    "target": 40,
+    "current": 22,
+    "unit": "%",
+    "trend": "Up",
+    "status": "At Risk"
+  },
+  {
+    "id": "kpi-022",
+    "rockId": "rock-011",
+    "name": "Customer Retention Rate",
+    "description": "Percentage of customers retained month-over-month",
+    "target": 98,
+    "current": 96.5,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-023",
+    "rockId": "rock-011",
+    "name": "Net Revenue Retention",
+    "description": "Net revenue retention including expansion",
+    "target": 110,
+    "current": 105,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-024",
+    "rockId": "rock-012",
+    "name": "Financial Report Accuracy",
+    "description": "Percentage of financial reports with zero errors",
+    "target": 100,
+    "current": 97,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  },
+  {
+    "id": "kpi-025",
+    "rockId": "rock-012",
+    "name": "Manual Process Reduction",
+    "description": "Percentage reduction in manual financial processes",
+    "target": 60,
+    "current": 45,
+    "unit": "%",
+    "trend": "Up",
+    "status": "On Track"
+  }
+]
+

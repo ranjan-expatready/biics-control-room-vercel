@@ -1,0 +1,153 @@
+[
+  {
+    "id": "decision-001",
+    "rockId": "rock-001",
+    "title": "Platform Architecture Approach",
+    "description": "Decision on whether to use microservices or monolithic architecture for new platform",
+    "status": "Decided",
+    "decisionDate": "2024-01-10",
+    "decisionMaker": "Jennifer Kim, CTO",
+    "impact": "High"
+  },
+  {
+    "id": "decision-002",
+    "rockId": "rock-002",
+    "title": "Cloud Provider Selection",
+    "description": "Choose primary cloud provider for data infrastructure migration",
+    "status": "Decided",
+    "decisionDate": "2024-01-12",
+    "decisionMaker": "Jennifer Kim, CTO",
+    "impact": "High"
+  },
+  {
+    "id": "decision-003",
+    "rockId": "rock-002",
+    "title": "Migration Timeline Adjustment",
+    "description": "Decision on whether to extend migration timeline or reduce scope",
+    "status": "Pending",
+    "decisionDate": null,
+    "decisionMaker": "Sarah Chen, Chief Strategy Officer",
+    "impact": "High"
+  },
+  {
+    "id": "decision-004",
+    "rockId": "rock-003",
+    "title": "AI Vendor Selection",
+    "description": "Select AI/ML platform vendor for sales enablement tools",
+    "status": "Decided",
+    "decisionDate": "2024-01-18",
+    "decisionMaker": "David Park, VP Sales",
+    "impact": "Medium"
+  },
+  {
+    "id": "decision-005",
+    "rockId": "rock-004",
+    "title": "Compliance Framework Scope",
+    "description": "Determine scope of compliance framework - minimum viable vs comprehensive",
+    "status": "Decided",
+    "decisionDate": "2024-01-05",
+    "decisionMaker": "Lisa Thompson, Chief Compliance Officer",
+    "impact": "High"
+  },
+  {
+    "id": "decision-006",
+    "rockId": "rock-005",
+    "title": "Build vs Buy Decision",
+    "description": "Decide whether to build custom platform or purchase vendor solution",
+    "status": "Pending",
+    "decisionDate": null,
+    "decisionMaker": "Robert Chen, CHRO",
+    "impact": "Critical"
+  },
+  {
+    "id": "decision-007",
+    "rockId": "rock-005",
+    "title": "Timeline Extension Request",
+    "description": "Decision on whether to extend Talent Acquisition Platform timeline",
+    "status": "Pending",
+    "decisionDate": null,
+    "decisionMaker": "Sarah Chen, Chief Strategy Officer",
+    "impact": "High"
+  },
+  {
+    "id": "decision-008",
+    "rockId": "rock-006",
+    "title": "Supplier Diversification Strategy",
+    "description": "Decide on supplier diversification approach and target regions",
+    "status": "Decided",
+    "decisionDate": "2024-01-15",
+    "decisionMaker": "Amanda Foster, VP Operations",
+    "impact": "Medium"
+  },
+  {
+    "id": "decision-009",
+    "rockId": "rock-007",
+    "title": "Native vs Hybrid App Approach",
+    "description": "Decision on native iOS/Android vs hybrid app development approach",
+    "status": "Decided",
+    "decisionDate": "2024-01-20",
+    "decisionMaker": "Michael Rodriguez, VP Product",
+    "impact": "High"
+  },
+  {
+    "id": "decision-010",
+    "rockId": "rock-008",
+    "title": "Security Tool Vendor Selection",
+    "description": "Select vendor for advanced security monitoring and threat detection",
+    "status": "Decided",
+    "decisionDate": "2024-01-08",
+    "decisionMaker": "James Wilson, CISO",
+    "impact": "High"
+  },
+  {
+    "id": "decision-011",
+    "rockId": "rock-009",
+    "title": "Partnership Prioritization",
+    "description": "Prioritize which strategic partnerships to pursue first",
+    "status": "Decided",
+    "decisionDate": "2024-01-25",
+    "decisionMaker": "Patricia Martinez, VP Business Development",
+    "impact": "Medium"
+  },
+  {
+    "id": "decision-012",
+    "rockId": "rock-010",
+    "title": "AI Model Training Approach",
+    "description": "Decide on supervised vs unsupervised learning approach for core models",
+    "status": "Pending",
+    "decisionDate": null,
+    "decisionMaker": "Jennifer Kim, CTO",
+    "impact": "High"
+  },
+  {
+    "id": "decision-013",
+    "rockId": "rock-010",
+    "title": "Resource Reallocation",
+    "description": "Decision on whether to reallocate resources from other projects to AI/ML",
+    "status": "Pending",
+    "decisionDate": null,
+    "decisionMaker": "Sarah Chen, Chief Strategy Officer",
+    "impact": "High"
+  },
+  {
+    "id": "decision-014",
+    "rockId": "rock-011",
+    "title": "Customer Success Tool Selection",
+    "description": "Select customer success platform and tooling",
+    "status": "Decided",
+    "decisionDate": "2024-01-24",
+    "decisionMaker": "Sarah Chen, Chief Strategy Officer",
+    "impact": "Medium"
+  },
+  {
+    "id": "decision-015",
+    "rockId": "rock-012",
+    "title": "Financial System Vendor Selection",
+    "description": "Select vendor for financial systems modernization",
+    "status": "Decided",
+    "decisionDate": "2024-01-11",
+    "decisionMaker": "Thomas Anderson, CFO",
+    "impact": "High"
+  }
+]
+

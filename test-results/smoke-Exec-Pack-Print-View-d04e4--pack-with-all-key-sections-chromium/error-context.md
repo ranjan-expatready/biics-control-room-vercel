@@ -1,0 +1,67 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "2"
+          - generic [ref=e15]: "3"
+        - generic [ref=e16]:
+          - text: Issue
+          - generic [ref=e17]: s
+      - button "Collapse issues badge" [ref=e18]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - navigation [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "BIICS" [level=1] [ref=e25]
+          - generic [ref=e26]: Program Balanced Scorecard OS
+        - generic [ref=e28]: Demo Mode
+    - generic [ref=e29]:
+      - complementary [ref=e30]:
+        - navigation [ref=e31]:
+          - link "🏠 Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e33]: 🏠
+            - generic [ref=e34]: Home
+          - link "🎯 Rocks" [ref=e35] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e36]: 🎯
+            - generic [ref=e37]: Rocks
+          - link "⚠️ Risks" [ref=e38] [cursor=pointer]:
+            - /url: /risks
+            - generic [ref=e39]: ⚠️
+            - generic [ref=e40]: Risks
+          - link "💡 Decisions" [ref=e41] [cursor=pointer]:
+            - /url: /decisions
+            - generic [ref=e42]: 💡
+            - generic [ref=e43]: Decisions
+          - link "✅ Actions" [ref=e44] [cursor=pointer]:
+            - /url: /actions
+            - generic [ref=e45]: ✅
+            - generic [ref=e46]: Actions
+          - link "📅 Cadence" [ref=e47] [cursor=pointer]:
+            - /url: /cadence
+            - generic [ref=e48]: 📅
+            - generic [ref=e49]: Cadence
+          - link "📋 Offering" [ref=e50] [cursor=pointer]:
+            - /url: /offering
+            - generic [ref=e51]: 📋
+            - generic [ref=e52]: Offering
+      - main [ref=e53]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img [ref=e58]
+            - heading "Something went wrong" [level=1] [ref=e60]
+            - paragraph [ref=e61]: We encountered an unexpected error. Our team has been notified and is working to resolve this issue.
+          - generic [ref=e62]:
+            - button "Try Again" [ref=e63]
+            - link "Back to Control Room" [ref=e64] [cursor=pointer]:
+              - /url: /
+  - alert [ref=e65]
+```

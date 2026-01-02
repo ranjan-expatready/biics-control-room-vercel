@@ -1,0 +1,750 @@
+{
+  "initiatives": [
+    {
+      "id": "digital-transformation",
+      "name": "Digital Transformation Platform",
+      "execOwner": "Sarah Chen (Chief Digital Officer)",
+      "status": "FAILING",
+      "valueAtRiskUsd": 12000000,
+      "irreversibilityDays": 15,
+      "primaryFailureMechanism": "Vendor relationship breakdown and technical debt accumulation",
+      "requiredDecisionThisWeek": "Terminate vendor contract and redirect $4M to core platform",
+      "dependencies": ["data-analytics", "api-modernization", "mobile-app"],
+      "cascadeImpactUsd": 8500000,
+      "budgetApprovedUsd": 8000000,
+      "budgetForecastUsd": 11200000,
+      "budgetVariancePct": 40,
+      "timelineSlipDays": 45,
+      "qualitySignal": "CRITICAL",
+      "valueConfidence": 35,
+      "verdict": "RESCOPE",
+      "verdictRationale": [
+        "Budget overrun of 40% exceeds recovery threshold with vendor relationship permanently damaged",
+        "Timeline slippage of 45 days pushes beyond 30-day irreversibility window for digital transformation",
+        "Quality degradation to CRITICAL level means technical debt cannot be resolved within strategic timeframe"
+      ],
+      "decisionThisWeek": {
+        "title": "Re-scope vendor contract and redirect $8M to alternative platform",
+        "ownerRole": "Chief Digital Officer",
+        "dueInDays": 3,
+        "consequence": "Delay beyond Friday will result in permanent $3M monthly vendor bleed and complete platform failure"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 35,
+          "requiredValuePct": 75,
+          "inDays": 45
+        },
+        "recoveryCost": {
+          "lowUsd": 12000000,
+          "highUsd": 18000000,
+          "successProbPct": 25
+        },
+        "irreversibility": {
+          "inDays": 15,
+          "consequence": "Platform becomes permanently unrecoverable, requiring complete restart at $25M+ cost"
+        }
+      }
+    },
+    {
+      "id": "customer-experience",
+      "name": "Customer Experience Platform",
+      "execOwner": "Michael Rodriguez (VP Customer Success)",
+      "status": "FAILING",
+      "valueAtRiskUsd": 8500000,
+      "irreversibilityDays": 22,
+      "primaryFailureMechanism": "Integration failures and user adoption resistance",
+      "requiredDecisionThisWeek": "Escalate to board-level intervention",
+      "dependencies": ["mobile-app", "training-platform"],
+      "cascadeImpactUsd": 6200000,
+      "budgetApprovedUsd": 6500000,
+      "budgetForecastUsd": 9200000,
+      "budgetVariancePct": 42,
+      "timelineSlipDays": 28,
+      "qualitySignal": "DEGRADING",
+      "valueConfidence": 42,
+      "verdict": "INTERVENE",
+      "verdictRationale": [
+        "Customer retention deterioration of 18% exceeds acceptable intervention threshold",
+        "Integration failures creating technical debt that will compound beyond 30-day window",
+        "Leadership capacity insufficient to resolve adoption resistance within recovery timeframe"
+      ],
+      "decisionThisWeek": {
+        "title": "Replace VP Customer Success and redirect $3M to customer experience overhaul",
+        "ownerRole": "CEO",
+        "dueInDays": 5,
+        "consequence": "Delay will result in permanent 23% customer retention loss and $12M annual revenue impact"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 42,
+          "requiredValuePct": 70,
+          "inDays": 28
+        },
+        "recoveryCost": {
+          "lowUsd": 8000000,
+          "highUsd": 12000000,
+          "successProbPct": 55
+        },
+        "irreversibility": {
+          "inDays": 22,
+          "consequence": "Customer trust erosion becomes permanent, requiring complete brand repositioning at $18M+ cost"
+        }
+      }
+    },
+    {
+      "id": "supply-chain",
+      "name": "Supply Chain Optimization",
+      "execOwner": "Jennifer Walsh (Chief Operations Officer)",
+      "status": "FAILING",
+      "valueAtRiskUsd": 15000000,
+      "irreversibilityDays": 8,
+      "primaryFailureMechanism": "Legacy system dependencies and change management failure",
+      "requiredDecisionThisWeek": "Terminate and redirect resources to ERP integration",
+      "dependencies": ["erp-integration", "reporting-dashboard", "process-optimization"],
+      "cascadeImpactUsd": 11000000,
+      "budgetApprovedUsd": 12000000,
+      "budgetForecastUsd": 16500000,
+      "budgetVariancePct": 38,
+      "timelineSlipDays": 52,
+      "qualitySignal": "CRITICAL",
+      "valueConfidence": 28,
+      "verdict": "RESCOPE",
+      "verdictRationale": [
+        "Legacy system dependencies create $11M cascade risk that cannot be mitigated within 8-day window",
+        "Executive turnover combined with technical complexity exceeds recovery capacity",
+        "Budget escalation of 38% with timeline slippage of 52 days pushes beyond strategic relevance"
+      ],
+      "decisionThisWeek": {
+        "title": "Terminate supply chain initiative and redirect $12M to ERP system replacement",
+        "ownerRole": "COO",
+        "dueInDays": 4,
+        "consequence": "Delay will result in permanent operational disruption and $15M quarterly cost increases"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 28,
+          "requiredValuePct": 65,
+          "inDays": 52
+        },
+        "recoveryCost": {
+          "lowUsd": 20000000,
+          "highUsd": 28000000,
+          "successProbPct": 30
+        },
+        "irreversibility": {
+          "inDays": 8,
+          "consequence": "Supply continuity permanently compromised, requiring emergency vendor contracts at 3x cost"
+        }
+      }
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data Analytics Platform",
+      "execOwner": "David Kim (Chief Data Officer)",
+      "status": "WARNING",
+      "valueAtRiskUsd": 6500000,
+      "irreversibilityDays": 35,
+      "primaryFailureMechanism": "Data quality issues and delayed implementation",
+      "requiredDecisionThisWeek": "Increase investment by $2M or accept 6-month delay",
+      "dependencies": ["reporting-dashboard", "compliance-automation"],
+      "cascadeImpactUsd": 3800000,
+      "budgetApprovedUsd": 5500000,
+      "budgetForecastUsd": 7200000,
+      "budgetVariancePct": 31,
+      "timelineSlipDays": 18,
+      "qualitySignal": "DEGRADING",
+      "valueConfidence": 55,
+      "verdict": "INTERVENE",
+      "verdictRationale": [
+        "Data quality degradation threatens compliance reporting requirements within 35-day window",
+        "Budget variance of 31% exceeds threshold for continued investment without intervention",
+        "Timeline slippage of 18 days combined with technical complexity requires immediate escalation"
+      ],
+      "decisionThisWeek": {
+        "title": "Increase budget by $2M and replace data engineering lead",
+        "ownerRole": "Chief Data Officer",
+        "dueInDays": 7,
+        "consequence": "Delay will result in regulatory non-compliance and $8M in fines plus remediation costs"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 55,
+          "requiredValuePct": 80,
+          "inDays": 35
+        },
+        "recoveryCost": {
+          "lowUsd": 2000000,
+          "highUsd": 4000000,
+          "successProbPct": 70
+        },
+        "irreversibility": {
+          "inDays": 35,
+          "consequence": "Data foundation becomes inadequate for strategic analytics, requiring complete rebuild at $12M+ cost"
+        }
+      }
+    },
+    {
+      "id": "mobile-app",
+      "name": "Mobile App Redesign",
+      "execOwner": "Lisa Thompson (VP Product)",
+      "status": "WARNING",
+      "valueAtRiskUsd": 4200000,
+      "irreversibilityDays": 42,
+      "primaryFailureMechanism": "Scope creep and resource competition",
+      "requiredDecisionThisWeek": "Reduce scope or delay other initiatives",
+      "dependencies": ["api-modernization"],
+      "cascadeImpactUsd": 2100000,
+      "budgetApprovedUsd": 3800000,
+      "budgetForecastUsd": 4800000,
+      "budgetVariancePct": 26,
+      "timelineSlipDays": 12,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 68,
+      "verdict": "INTERVENE",
+      "verdictRationale": [
+        "Scope creep of 26% threatens API modernization dependency and platform reliability",
+        "Timeline slippage of 12 days within 42-day irreversibility window requires immediate action",
+        "Resource competition with customer experience platform creates delivery risk"
+      ],
+      "decisionThisWeek": {
+        "title": "Reduce scope by 30% and delay non-critical features by 6 months",
+        "ownerRole": "VP Product",
+        "dueInDays": 6,
+        "consequence": "Delay will force cancellation and $4.2M write-off plus platform discontinuity costs"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 68,
+          "requiredValuePct": 85,
+          "inDays": 42
+        },
+        "recoveryCost": {
+          "lowUsd": 1000000,
+          "highUsd": 2000000,
+          "successProbPct": 75
+        },
+        "irreversibility": {
+          "inDays": 42,
+          "consequence": "Mobile platform becomes obsolete relative to market standards, requiring complete replacement at $8M+ cost"
+        }
+      }
+    },
+    {
+      "id": "api-modernization",
+      "name": "API Modernization",
+      "execOwner": "Alex Rivera (VP Engineering)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 1800000,
+      "irreversibilityDays": 55,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 2000000,
+      "budgetForecastUsd": 2100000,
+      "budgetVariancePct": 5,
+      "timelineSlipDays": 3,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 82,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "On track with 5% budget variance within acceptable tolerance",
+        "Stable quality signals and 82% value confidence support continued execution",
+        "Timeline slippage of 3 days remains within 55-day irreversibility window"
+      ],
+      "decisionThisWeek": {
+        "title": "Continue as planned with standard monitoring",
+        "ownerRole": "VP Engineering",
+        "dueInDays": 30,
+        "consequence": "No immediate action required; standard governance applies"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 82,
+          "requiredValuePct": 75,
+          "inDays": 55
+        },
+        "recoveryCost": {
+          "lowUsd": 500000,
+          "highUsd": 1000000,
+          "successProbPct": 90
+        },
+        "irreversibility": {
+          "inDays": 55,
+          "consequence": "Minor delays would require only incremental investment to recover"
+        }
+      }
+    },
+    {
+      "id": "security-infrastructure",
+      "name": "Security Infrastructure Upgrade",
+      "execOwner": "Maria Garcia (Chief Information Security Officer)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 2800000,
+      "irreversibilityDays": 48,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 3000000,
+      "budgetForecastUsd": 3120000,
+      "budgetVariancePct": 4,
+      "timelineSlipDays": 2,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 88,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "4% budget variance well within acceptable parameters for infrastructure projects",
+        "48-day timeline window provides substantial buffer for any minor adjustments",
+        "Stable quality signals support continued execution without intervention"
+      ],
+      "decisionThisWeek": {
+        "title": "Continue with planned security implementation phases",
+        "ownerRole": "Chief Information Security Officer",
+        "dueInDays": 45,
+        "consequence": "Standard security governance protocols remain sufficient"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 88,
+          "requiredValuePct": 80,
+          "inDays": 48
+        },
+        "recoveryCost": {
+          "lowUsd": 800000,
+          "highUsd": 1500000,
+          "successProbPct": 85
+        },
+        "irreversibility": {
+          "inDays": 48,
+          "consequence": "Security gaps would require only incremental compliance investments"
+        }
+      }
+    },
+    {
+      "id": "compliance-automation",
+      "name": "Compliance Automation",
+      "execOwner": "Robert Lee (Chief Compliance Officer)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 1500000,
+      "irreversibilityDays": 62,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 1400000,
+      "budgetForecastUsd": 1480000,
+      "budgetVariancePct": 6,
+      "timelineSlipDays": 4,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 79,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "6% budget variance remains within compliance automation tolerances",
+        "62-day window provides ample time for regulatory adjustments",
+        "Stable data quality supports continued automation rollout"
+      ],
+      "decisionThisWeek": {
+        "title": "Proceed with Phase 2 compliance automation deployment",
+        "ownerRole": "Chief Compliance Officer",
+        "dueInDays": 60,
+        "consequence": "No immediate action required; regulatory timelines remain achievable"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 79,
+          "requiredValuePct": 75,
+          "inDays": 62
+        },
+        "recoveryCost": {
+          "lowUsd": 300000,
+          "highUsd": 600000,
+          "successProbPct": 95
+        },
+        "irreversibility": {
+          "inDays": 62,
+          "consequence": "Minor compliance delays would require only incremental process adjustments"
+        }
+      }
+    },
+    {
+      "id": "training-platform",
+      "name": "Training Platform",
+      "execOwner": "Emma Davis (Chief Learning Officer)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 1200000,
+      "irreversibilityDays": 58,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 1300000,
+      "budgetForecastUsd": 1350000,
+      "budgetVariancePct": 4,
+      "timelineSlipDays": 1,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 85,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "4% budget variance well within training program tolerances",
+        "58-day window provides substantial buffer for content development",
+        "Stable adoption metrics support continued learning platform rollout"
+      ],
+      "decisionThisWeek": {
+        "title": "Continue with planned training curriculum expansion",
+        "ownerRole": "Chief Learning Officer",
+        "dueInDays": 50,
+        "consequence": "Standard learning governance protocols remain sufficient"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 85,
+          "requiredValuePct": 78,
+          "inDays": 58
+        },
+        "recoveryCost": {
+          "lowUsd": 200000,
+          "highUsd": 400000,
+          "successProbPct": 90
+        },
+        "irreversibility": {
+          "inDays": 58,
+          "consequence": "Training delays would require only incremental content adjustments"
+        }
+      }
+    },
+    {
+      "id": "reporting-dashboard",
+      "name": "Executive Reporting Dashboard",
+      "execOwner": "James Wilson (VP Finance)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 900000,
+      "irreversibilityDays": 45,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 950000,
+      "budgetForecastUsd": 980000,
+      "budgetVariancePct": 3,
+      "timelineSlipDays": 2,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 91,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "3% budget variance well within dashboard development tolerances",
+        "45-day window provides ample time for final refinements",
+        "91% value confidence supports continued executive reporting improvements"
+      ],
+      "decisionThisWeek": {
+        "title": "Complete final dashboard testing and user acceptance",
+        "ownerRole": "VP Finance",
+        "dueInDays": 40,
+        "consequence": "Standard finance governance protocols remain sufficient"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 91,
+          "requiredValuePct": 85,
+          "inDays": 45
+        },
+        "recoveryCost": {
+          "lowUsd": 100000,
+          "highUsd": 200000,
+          "successProbPct": 95
+        },
+        "irreversibility": {
+          "inDays": 45,
+          "consequence": "Reporting delays would require only minor interface adjustments"
+        }
+      }
+    },
+    {
+      "id": "vendor-management",
+      "name": "Vendor Management System",
+      "execOwner": "Karen Patel (Chief Procurement Officer)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 2100000,
+      "irreversibilityDays": 52,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 2200000,
+      "budgetForecastUsd": 2280000,
+      "budgetVariancePct": 4,
+      "timelineSlipDays": 3,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 87,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "4% budget variance within vendor management system tolerances",
+        "52-day window provides sufficient time for vendor negotiations",
+        "Stable contract metrics support continued procurement optimization"
+      ],
+      "decisionThisWeek": {
+        "title": "Continue with vendor contract optimization phases",
+        "ownerRole": "Chief Procurement Officer",
+        "dueInDays": 45,
+        "consequence": "Standard procurement governance protocols remain sufficient"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 87,
+          "requiredValuePct": 82,
+          "inDays": 52
+        },
+        "recoveryCost": {
+          "lowUsd": 400000,
+          "highUsd": 800000,
+          "successProbPct": 88
+        },
+        "irreversibility": {
+          "inDays": 52,
+          "consequence": "Procurement delays would require only incremental contract adjustments"
+        }
+      }
+    },
+    {
+      "id": "process-optimization",
+      "name": "Process Optimization Initiative",
+      "execOwner": "Thomas Brown (VP Operations)",
+      "status": "ACCEPTABLE",
+      "valueAtRiskUsd": 1900000,
+      "irreversibilityDays": 49,
+      "primaryFailureMechanism": "N/A - on track",
+      "requiredDecisionThisWeek": "Continue as planned",
+      "dependencies": [],
+      "cascadeImpactUsd": 0,
+      "budgetApprovedUsd": 1800000,
+      "budgetForecastUsd": 1870000,
+      "budgetVariancePct": 4,
+      "timelineSlipDays": 2,
+      "qualitySignal": "STABLE",
+      "valueConfidence": 89,
+      "verdict": "CONTINUE",
+      "verdictRationale": [
+        "4% budget variance within process optimization tolerances",
+        "49-day window provides ample time for workflow refinements",
+        "89% value confidence supports continued operational improvements"
+      ],
+      "decisionThisWeek": {
+        "title": "Continue with Phase 3 process automation rollout",
+        "ownerRole": "VP Operations",
+        "dueInDays": 42,
+        "consequence": "Standard operations governance protocols remain sufficient"
+      },
+      "evidence": {
+        "valueTrajectory": {
+          "currentValuePct": 89,
+          "requiredValuePct": 83,
+          "inDays": 49
+        },
+        "recoveryCost": {
+          "lowUsd": 300000,
+          "highUsd": 600000,
+          "successProbPct": 92
+        },
+        "irreversibility": {
+          "inDays": 49,
+          "consequence": "Process delays would require only minor workflow adjustments"
+        }
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "rescope-digital-platform",
+      "title": "Re-scope Digital Transformation Platform",
+      "execOwner": "Sarah Chen",
+      "dueInDays": 3,
+      "valueAtRiskUsd": 12000000,
+      "linkedInitiativeIds": ["digital-transformation"],
+      "delayCostNarrative": "Delaying re-scoping will consume $2M weekly in failing vendor costs and prevent rescue of dependent initiatives",
+      "stance": "RECOMMEND",
+      "recommendedByRole": "Program Director",
+      "ifRejectedConsequence": "Continued $2M weekly bleed will exhaust contingency budget within 4 weeks."
+    },
+    {
+      "id": "escalate-supply-chain",
+      "title": "Escalate Supply Chain Optimization Issues",
+      "execOwner": "Jennifer Walsh",
+      "dueInDays": 5,
+      "valueAtRiskUsd": 15000000,
+      "linkedInitiativeIds": ["supply-chain"],
+      "delayCostNarrative": "Each week of delay increases cascade failure risk by 15% and prevents ERP integration completion",
+      "stance": "RECOMMEND",
+      "recommendedByRole": "COO",
+      "ifRejectedConsequence": "Legacy system failures will become permanent, requiring complete supply chain rebuild at 3x cost."
+    },
+    {
+      "id": "redirect-customer-resources",
+      "title": "Redirect Customer Experience Resources",
+      "execOwner": "Michael Rodriguez",
+      "dueInDays": 4,
+      "valueAtRiskUsd": 8500000,
+      "linkedInitiativeIds": ["customer-experience"],
+      "delayCostNarrative": "Continued resource drain will force mobile app cancellation and damage customer retention by 23%",
+      "stance": "RECOMMEND",
+      "recommendedByRole": "VP Customer Success",
+      "ifRejectedConsequence": "Customer trust erosion becomes permanent, eliminating recovery options within 22-day window."
+    },
+    {
+      "id": "data-analytics-investment",
+      "title": "Increase Data Analytics Investment or Accept Delay",
+      "execOwner": "David Kim",
+      "dueInDays": 7,
+      "valueAtRiskUsd": 6500000,
+      "linkedInitiativeIds": ["data-analytics"],
+      "delayCostNarrative": "Accepting delay will push compliance reporting deadlines by 4 months and increase regulatory risk",
+      "stance": "ACCEPT",
+      "recommendedByRole": "Chief Data Officer",
+      "ifRejectedConsequence": "Investment increase may delay other initiatives but preserves 35-day recovery window."
+    },
+    {
+      "id": "mobile-app-scope-reduction",
+      "title": "Reduce Mobile App Scope or Accept Delays",
+      "execOwner": "Lisa Thompson",
+      "dueInDays": 6,
+      "valueAtRiskUsd": 4200000,
+      "linkedInitiativeIds": ["mobile-app"],
+      "delayCostNarrative": "Scope expansion will delay API modernization by 8 weeks and reduce platform reliability by 30%",
+      "stance": "RECOMMEND",
+      "recommendedByRole": "VP Product",
+      "ifRejectedConsequence": "Continued scope creep will eliminate recovery options within 42-day irreversibility window."
+    },
+    {
+      "id": "erp-integration-priority",
+      "title": "Prioritize ERP Integration Over Legacy Systems",
+      "execOwner": "Jennifer Walsh",
+      "dueInDays": 2,
+      "valueAtRiskUsd": 11000000,
+      "linkedInitiativeIds": ["supply-chain", "process-optimization"],
+      "delayCostNarrative": "Delaying ERP priority will extend supply chain failures by 12 weeks and increase operational costs by $1.8M monthly",
+      "stance": "ESCALATE",
+      "recommendedByRole": "COO",
+      "ifRejectedConsequence": "ERP integration becomes permanently blocked, requiring emergency vendor contracts at 3x cost."
+    }
+  ],
+  "failureSignals": [
+    {
+      "label": "Data Analytics Platform reaches irreversibility",
+      "inDays": 35,
+      "impactNarrative": "Compliance reporting capabilities permanently delayed by 6 months"
+    },
+    {
+      "label": "Mobile App Redesign becomes unrecoverable",
+      "inDays": 42,
+      "impactNarrative": "Customer experience deterioration accelerates, 18% retention impact expected"
+    },
+    {
+      "label": "API Modernization stalls permanently",
+      "inDays": 55,
+      "impactNarrative": "Digital ecosystem fragmentation increases maintenance costs by 40%"
+    },
+    {
+      "label": "Security Infrastructure gaps widen",
+      "inDays": 48,
+      "impactNarrative": "Regulatory compliance risk increases, potential fines up to $2.5M"
+    },
+    {
+      "label": "Process Optimization opportunities lost",
+      "inDays": 49,
+      "impactNarrative": "Operational efficiency gains permanently forgone, $3.2M annual impact"
+    }
+  ],
+  "portfolioRisks": [
+    {
+      "id": "risk-1",
+      "title": "Single-source supplier dependency",
+      "severity": "CRITICAL",
+      "mitigationStatus": "STALLED",
+      "ownerRole": "COO",
+      "failureConsequence": "Failure to dual-source within 21 days risks cascading supply disruption and $11M revenue exposure."
+    },
+    {
+      "id": "risk-2",
+      "title": "Executive turnover vulnerability",
+      "severity": "HIGH",
+      "mitigationStatus": "IN PROGRESS",
+      "ownerRole": "CHRO",
+      "failureConsequence": "Key executive departure without succession coverage could stall 3 critical initiatives and delay value realization by 8 months."
+    },
+    {
+      "id": "risk-3",
+      "title": "Regulatory compliance gaps",
+      "severity": "MODERATE",
+      "mitigationStatus": "EFFECTIVE",
+      "ownerRole": "Chief Compliance Officer",
+      "failureConsequence": "Incomplete regulatory alignment risks fines up to $2.8M and blocks market expansion into regulated segments."
+    },
+    {
+      "id": "risk-4",
+      "title": "Technology platform fragmentation",
+      "severity": "HIGH",
+      "mitigationStatus": "NOT STARTED",
+      "ownerRole": "CIO",
+      "failureConsequence": "Incompatible technology stacks create integration debt that could double maintenance costs within 12 months."
+    },
+    {
+      "id": "risk-5",
+      "title": "Market demand shift exposure",
+      "severity": "MODERATE",
+      "mitigationStatus": "STALLED",
+      "ownerRole": "CMO",
+      "failureConsequence": "Failure to adapt to market changes could render 40% of current initiatives obsolete with $18M invested capital at risk."
+    }
+  ],
+  "asOfDate": "2024-01-15T00:00:00Z",
+  "previousAsOfDate": "2024-01-08T00:00:00Z",
+  "whatChanged": [
+    {
+      "type": "DEGRADED",
+      "initiativeId": "digital-transformation",
+      "headline": "Digital Transformation budget overrun exceeded 40% threshold",
+      "impactUsd": 12000000,
+      "note": "Vendor relationship issues have escalated costs beyond recovery planning assumptions."
+    },
+    {
+      "type": "NEW_RISK",
+      "headline": "Single-source supplier dependency identified as critical enterprise risk",
+      "impactUsd": 11000000,
+      "note": "21-day window identified for dual-sourcing before permanent disruption risk."
+    },
+    {
+      "type": "DEGRADED",
+      "initiativeId": "supply-chain",
+      "headline": "Supply Chain timeline slipped 52 days with CRITICAL quality signal",
+      "impactUsd": 15000000,
+      "note": "Legacy system dependencies now exceed 8-day irreversibility threshold."
+    },
+    {
+      "type": "IMPROVED",
+      "initiativeId": "api-modernization",
+      "headline": "API Modernization confidence increased to 82%",
+      "note": "Stable quality signals and on-track timeline provide recovery buffer."
+    },
+    {
+      "type": "DECISION_CLOSED",
+      "headline": "Q4 budget allocation decisions completed for 3 initiatives",
+      "impactUsd": 8500000,
+      "note": "Funding secured for Digital Transformation and Customer Experience recovery efforts."
+    },
+    {
+      "type": "DEGRADED",
+      "initiativeId": "customer-experience",
+      "headline": "Customer Experience retention impact escalated to 23%",
+      "impactUsd": 8500000,
+      "note": "Leadership changes now required within 22-day irreversibility window."
+    }
+  ],
+  "portfolioSummary": {
+    "totalApprovedUsd": 63500000,
+    "totalForecastUsd": 74200000,
+    "totalVariancePct": 17,
+    "overallTimelineRisk": "HIGH",
+    "overallQualityRisk": "HIGH",
+    "overallValueConfidence": 62
+  }
+}
