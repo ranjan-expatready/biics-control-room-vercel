@@ -93,52 +93,6 @@
       }
     },
     {
-      "id": "supply-chain",
-      "name": "Developer Productivity",
-      "execOwner": "Jennifer Walsh (Chief Operations Officer)",
-      "status": "FAILING",
-      "valueAtRiskUsd": 15000000,
-      "irreversibilityDays": 8,
-      "primaryFailureMechanism": "Legacy system dependencies and change management failure",
-      "requiredDecisionThisWeek": "Terminate and redirect resources to ERP integration",
-      "dependencies": ["erp-integration", "reporting-dashboard", "process-optimization"],
-      "cascadeImpactUsd": 11000000,
-      "budgetApprovedUsd": 12000000,
-      "budgetForecastUsd": 16500000,
-      "budgetVariancePct": 38,
-      "timelineSlipDays": 52,
-      "qualitySignal": "CRITICAL",
-      "valueConfidence": 28,
-      "verdict": "RESCOPE",
-      "verdictRationale": [
-        "Legacy system dependencies create $11M cascade risk that cannot be mitigated within 8-day window",
-        "Executive turnover combined with technical complexity exceeds recovery capacity",
-        "Budget escalation of 38% with timeline slippage of 52 days pushes beyond strategic relevance"
-      ],
-      "decisionThisWeek": {
-        "title": "Terminate supply chain initiative and redirect $12M to ERP system replacement",
-        "ownerRole": "COO",
-        "dueInDays": 4,
-        "consequence": "Delay will result in permanent operational disruption and $15M quarterly cost increases"
-      },
-      "evidence": {
-        "valueTrajectory": {
-          "currentValuePct": 28,
-          "requiredValuePct": 65,
-          "inDays": 52
-        },
-        "recoveryCost": {
-          "lowUsd": 20000000,
-          "highUsd": 28000000,
-          "successProbPct": 30
-        },
-        "irreversibility": {
-          "inDays": 8,
-          "consequence": "Supply continuity permanently compromised, requiring emergency vendor contracts at 3x cost"
-        }
-      }
-    },
-    {
       "id": "data-analytics",
       "name": "Wholesale Credit Underwriting",
       "execOwner": "David Kim (Chief Data Officer)",
@@ -567,18 +521,6 @@
       "ifRejectedConsequence": "Continued $2M weekly bleed will exhaust contingency budget within 4 weeks."
     },
     {
-      "id": "escalate-supply-chain",
-      "title": "Escalate Supply Chain Optimization Issues",
-      "execOwner": "Jennifer Walsh",
-      "dueInDays": 5,
-      "valueAtRiskUsd": 15000000,
-      "linkedInitiativeIds": ["supply-chain"],
-      "delayCostNarrative": "Each week of delay increases cascade failure risk by 15% and prevents ERP integration completion",
-      "stance": "RECOMMEND",
-      "recommendedByRole": "COO",
-      "ifRejectedConsequence": "Legacy system failures will become permanent, requiring complete supply chain rebuild at 3x cost."
-    },
-    {
       "id": "redirect-customer-resources",
       "title": "Redirect Customer Experience Resources",
       "execOwner": "Michael Rodriguez",
@@ -620,7 +562,7 @@
       "execOwner": "Jennifer Walsh",
       "dueInDays": 2,
       "valueAtRiskUsd": 11000000,
-      "linkedInitiativeIds": ["supply-chain", "process-optimization"],
+      "linkedInitiativeIds": ["process-optimization"],
       "delayCostNarrative": "Delaying ERP priority will extend supply chain failures by 12 weeks and increase operational costs by $1.8M monthly",
       "stance": "ESCALATE",
       "recommendedByRole": "COO",
@@ -711,13 +653,6 @@
       "headline": "Single-source supplier dependency identified as critical enterprise risk",
       "impactUsd": 11000000,
       "note": "21-day window identified for dual-sourcing before permanent disruption risk."
-    },
-    {
-      "type": "DEGRADED",
-      "initiativeId": "supply-chain",
-      "headline": "Supply Chain timeline slipped 52 days with CRITICAL quality signal",
-      "impactUsd": 15000000,
-      "note": "Legacy system dependencies now exceed 8-day irreversibility threshold."
     },
     {
       "type": "IMPROVED",
